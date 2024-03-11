@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --cor-vermelho: #ff8080;
+    --cor-azul: #4f88dd;
+    --cor-roxo: #9d49f1;
+    --cor-cinza: #e6e6e6;
+    --cor-preto: #666666;
+}
+header{
+    background-color: var(--cor-azul);
+    color: #fff;
+    text-align: left;
+    align-items: center;
+    height: 15vh;
+    display: flex;
+    padding: 0px 0px 0px 40px;
+}
+main{
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+#container{
+    padding: 10px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+.menu{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 80%;
+    border: .5px solid var(--cor-preto);
+    border-radius: 5px;
+    text-align: center;
+    appearance: textfield;
+    padding: 10px;
+    font-weight: 700;
+    outline: none;
+}
+input::placeholder{
+    color: black;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus{
+    background-color: #9d49f1;
+    color: #fff;
+    border: solid black 2px;
+}
+
+input:focus::placeholder{
+    color: #ffffff;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+    color: var(--cor-roxo);
+    border: solid 1px var(--cor-roxo);
+    transition: .4s ease;
+}
+button:hover{
+    background-color: var(--cor-roxo);
+    color: #fff;
+    cursor: pointer;
+    transition: .4s ease;
+}
+#tabuada{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    background-color: #4f88dd;
+    height: 10vh;
+    color: #fff;
+}
+table{
+    border-radius: 20px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+td, th{
+    border: solid 1px;
+}
+.semnumero{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.semnumero h2{
+    width: 70%;
+}
+.semnumero img{
+    width: 150px;
+    height: 150px;
+}
