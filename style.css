@@ -21,7 +21,7 @@ header{
     padding: 0px 0px 0px 40px;
 }
 main{
-    height: 75vh;
+    height: 80vh;
     display: flex;
     justify-content: space-around;
     background-color: #fff;
